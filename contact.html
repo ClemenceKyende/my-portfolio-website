@@ -58,14 +58,24 @@
         <i class="bi bi-list mobile-nav-toggle"></i>
       </nav><!-- .navbar -->
 
-      <div class="header-social-links">
-        <a href="#" class="twitter"><i class="bi bi-twitter"></i></a>
-        <a href="#" class="facebook"><i class="bi bi-facebook"></i></a>
-        <a href="#" class="instagram"><i class="bi bi-instagram"></i></a>
-        <a href="#" class="linkedin"><i class="bi bi-linkedin"></i></i></a>
+      <div class="header-social-links d-flex justify-content-center align-items-center">
+        <!-- Link to Twitter (now X) profile -->
+        <a href="https://x.com/clemence_mwende?t=PG3TLkaqy6kCKzFqIohatw&s=08" target="_blank" class="twitter">
+          <i class="bi bi-twitter-x"></i>
+        </a>  
+        <!-- Link to Facebook profile -->
+        <a href="https://www.facebook.com/clemence.mwende" target="_blank" class="facebook">
+          <i class="bi bi-facebook"></i>
+        </a>
+        <!-- Link to Instagram profile -->
+        <a href="https://www.instagram.com/clemencemwende?igsh=YzljYTk1ODg3Zg==" target="_blank" class="instagram">
+          <i class="bi bi-instagram"></i>
+        </a>
+        <!-- Link to LinkedIn profile -->
+        <a href="https://www.linkedin.com/in/clemence-mwende-ba231b1b9" target="_blank" class="linkedin">
+          <i class="bi bi-linkedin"></i>
+        </a>
       </div>
-
-    </div>
 
   </header><!-- End Header -->
 
@@ -81,7 +91,10 @@
         </div>
 
         <div>
-          <iframe style="border:0; width: 100%; height: 270px;" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12097.433213460943!2d-74.0062269!3d40.7101282!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xb89d1fe6bc499443!2sDowntown+Conference+Center!5e0!3m2!1smk!2sbg!4v1539943755621" frameborder="0" allowfullscreen></iframe>
+          <iframe style="border:0; width: 100%; height: 270px;" 
+          src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12097.433213460943!2d36.8010761!3d-1.2571572!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x182f17b7a2b075f1%3A0xd4a2766db7f26489!2sSarit%20Centre!5e0!3m2!1sen!2ske!4v1674310846782" 
+          frameborder="0" allowfullscreen></iframe>
+        
         </div>
 
         <div class="row mt-5">
@@ -103,7 +116,7 @@
               <div class="phone">
                 <i class="bi bi-phone"></i>
                 <h4>Call:</h4>
-                <p>+254 711 870 479</p>
+                <p> +254 706 890 550</p>
               </div>
 
             </div>
@@ -111,8 +124,7 @@
           </div>
 
           <div class="col-lg-8 mt-5 mt-lg-0">
-
-            <form action="forms/contact.php" method="post" role="form" class="php-email-form">
+            <form action="https://formspree.io/f/xwpvpjlk" method="POST" id="contactForm">
               <div class="row">
                 <div class="col-md-6 form-group">
                   <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" required>
@@ -128,17 +140,12 @@
                 <textarea class="form-control" name="message" rows="5" placeholder="Message" required></textarea>
               </div>
               <div class="my-3">
-                <div class="loading">Loading</div>
-                <div class="error-message"></div>
-                <div class="sent-message">Your message has been sent. Thank you!</div>
+                <div class="loading" style="display:none;">Loading</div>
+                <div class="sent-message" style="display:none;">Your message has been sent. Thank you!</div>
               </div>
               <div class="text-center"><button type="submit">Send Message</button></div>
             </form>
-
           </div>
-
-        </div>
-
       </div>
     </section><!-- End Contact Section -->
 
