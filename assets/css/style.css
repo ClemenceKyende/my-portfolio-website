@@ -1318,24 +1318,3 @@ section {
 .social-links {
   margin-top: 20px; /* Adds space between the copyright and social links */
 }
-
-/* Style for social icons in the header */
-.header-social-links a {
-  display: inline-block;
-  width: 30px; /* Smaller circle size */
-  height: 30px; /* Same height as width to keep the circle shape */
-  background-color: #fff; /* Light background color */
-  color: #333; /* Icon color */
-  border-radius: 50%; /* Makes it a circle */
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin: 0 10px; /* Space between icons */
-  transition: background-color 0.3s, color 0.3s; /* Smooth hover effect */
-}
-
-/* Hover effect for the icons */
-.header-social-links a:hover {
-  background-color: #d3f8e2; /* Light Green background on hover */
-  color: #3c763d; /* Green icon color on hover */
-}
