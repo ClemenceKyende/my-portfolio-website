@@ -1287,3 +1287,55 @@ section {
 #footer .credits a {
   color: #34b7a7;
 }
+
+/* Style the social media icons inside a circle */
+.social-links a {
+  display: inline-block;
+  width: 50px; /* Size of the circle */
+  height: 50px;
+  line-height: 50px; /* Vertically center the icon */
+  text-align: center;
+  border-radius: 50%; /* Make the shape a circle */
+  background-color: #fff; /* Light white background */
+  color: #333; /* Dark color for the icon */
+  font-size: 24px; /* Icon size */
+  margin: 0 10px; /* Spacing between the icons */
+  transition: background-color 0.3s ease, color 0.3s ease; /* Smooth transition on hover */
+}
+
+/* Icon hover effect */
+.social-links a:hover {
+  background-color: #d3f8e2; /* Light green background on hover */
+  color: #3c763d; /* Dark green color for the icon on hover */
+}
+
+/* Add some margin to the copyright section */
+#footer .copyright {
+  margin-bottom: 20px; /* Adjust this value as needed */
+}
+
+/* Add some spacing between social icons */
+.social-links {
+  margin-top: 20px; /* Adds space between the copyright and social links */
+}
+
+/* Style for social icons in the header */
+.header-social-links a {
+  display: inline-block;
+  width: 30px; /* Smaller circle size */
+  height: 30px; /* Same height as width to keep the circle shape */
+  background-color: #fff; /* Light background color */
+  color: #333; /* Icon color */
+  border-radius: 50%; /* Makes it a circle */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 10px; /* Space between icons */
+  transition: background-color 0.3s, color 0.3s; /* Smooth hover effect */
+}
+
+/* Hover effect for the icons */
+.header-social-links a:hover {
+  background-color: #d3f8e2; /* Light Green background on hover */
+  color: #3c763d; /* Green icon color on hover */
+}
